@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Portfolio of Herbert Skylz – Upcoming Software Engineer specializing in Web Development, UI/UX, and Frontend Design.">
+    <meta name="keywords" content="Herbert Skylz, Software Engineer, Web Developer, UI/UX Designer, Frontend Developer, Portfolio">
+
+    <title>Herbertz Skylz</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-container">
+            <div class="header-content">
+                <a href="#" class="logo-link">
+                    <img src="herbertz.png" alt="Logo" class="logo-image">
+                </a>
+
+                <nav class="nav-links-desktop">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#experience" class="nav-link">Experience</a>
+                    <a href="#education" class="nav-link">Education</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+
+                <div class="header-actions">
+                    <a href="CV-herbertz.pdf" download class="btn btn-cv-download-desktop">Download CV</a>
+
+                    <button id="menuBtn" class="menu-btn" aria-label="Toggle menu">
+                        <svg id="menuIcon" class="menu-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="mobileNav" class="nav-mobile hidden">
+            <div class="nav-mobile-content">
+                <a href="#home" class="nav-mobile-link">Home</a>
+                <a href="#about" class="nav-mobile-link">About</a>
+                <a href="#services" class="nav-mobile-link">Services</a>
+                <a href="#projects" class="nav-mobile-link">Projects</a>
+                <a href="#experience" class="nav-mobile-link">Experience</a>
+                <a href="#education" class="nav-mobile-link">Education</a>
+                <a href="#contact" class="nav-mobile-link">Contact</a>
+                <a href="CV-herbertz.pdf" download class="btn btn-cv-download-mobile">Download CV</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+
+        <section id="home" class="section hero-section">
+            <div class="hero-content fade-up">
+                <h1 class="hero-title">
+                    Hi — I'm <span class="text-primary">Herbertz Skylz</span>
+                </h1>
+
+                <p class="hero-text-large">
+                    Upcoming Software Engineer focused on front-end development, UI/UX design and graphics. I build
+                    responsive, accessible interfaces and attractive visuals that solve real problems.
+                </p>
+
+                <p class="hero-text-large">
+                    I specialize in <span class="text-primary font-semibold">Web Development</span>, <span class="text-primary font-semibold">UI/UX</span> and <span class="text-primary font-semibold">Graphic Design</span>.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">See Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Let's talk</a>
+                    <a href="CV-herbertz.pdf" download class="btn btn-tertiary">Download CV</a>
+                </div>
+
+                <div class="role-text">
+                    I'm a:
+                    <span class="role-cycle text-primary font-semibold ml-2">
+                        <span>Front-End Developer</span>
+                        <span>UI/UX Designer</span>
+                        <span>Graphic Designer</span>
+                        <span>Web Designer</span>
+                    </span>
+                </div>
+
+                <div class="quick-contact">
+                    <a class="contact-link" href="mailto:loputherbert@gmail.com">Email: <span>loputherbert@gmail.com</span></a>
+                    <a class="contact-link" href="tel:+256761264781">Tel: <span>+256 761-264-781</span></a>
+                </div>
+            </div>
+
+            <div class="hero-image-container">
+                <div class="profile-image-wrapper" aria-hidden>
+                    <img src="skylz.png" alt="Profile" class="profile-image">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about-section">
+            <div class="about-grid">
+                <div class="about-intro fade-up">
+                    <h2 class="section-title text-primary">About</h2>
+                    <p class="about-text">
+                        I'm a Diploma Software Engineering graduate from ISBAT University. I enjoy turning ideas into
+                        usable, accessible products — whether that's a polished website, a clean UI or a strong brand asset.
+                        Currently seeking entry-level roles or freelance projects where I can learn and contribute.
+                    </p>
+                    <div class="about-action">
+                        <a href="#contact" class="hire-link">Hire me →</a>
+                    </div>
+                </div>
+
+                <div class="about-details">
+                    <div class="card about-card">
+                        <h3 class="card-title">Quick facts</h3>
+                        <ul class="quick-facts-list">
+                            <li><strong>Location:</strong> Uganda</li>
+                            <li><strong>Education:</strong> Diploma — Software Engineering (ISBAT)</li>
+                            <li><strong>Availability:</strong> Open to work / freelance</li>
+                        </ul>
+                    </div>
+
+                    <div class="card about-card">
+                        <h3 class="card-title">Tools & Tech</h3>
+                        <div class="tech-tags">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                      <!--- <span class="tech-tag">React (learning)</span>
+                            <span class="tech-tag">Figma</span> -->
+                            <span class="tech-tag">Photoshop</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section services-section">
+            <div class="section-container">
+                <h2 class="section-title text-primary text-center">Services & Skills</h2>
+                <p class="section-subtitle">I deliver design-led front-end development and graphics that perform and look great.</p>
+
+                <div class="services-grid">
+                    <div class="card service-card">
+                        <h3 class="card-title">Front-end Development</h3>
+                        <p class="card-text">Responsive HTML/CSS, accessible components, JS interactivity, performance-minded builds.</p>
+
+                        <div class="skill-level-container">
+                            <h4 class="skill-level-title">Skill level</h4>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" style="width:65%"></div>
+                            </div>
+                            <div class="skill-percentage">65%</div>
+                        </div>
+                    </div>
+
+                    <div class="card service-card">
+                        <h3 class="card-title">UI / UX Design</h3>
+                        <p class="card-text">Design systems, wireframes, user journeys and pixel-perfect handoffs (Figma).</p>
+
+                        <div class="skill-level-container">
+                            <h4 class="skill-level-title">Skill level</h4>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" style="width:70%"></div>
+                            </div>
+                            <div class="skill-percentage">70%</div>
+                        </div>
+                    </div>
+
+                    <div class="card service-card">
+                        <h3 class="card-title">Graphic Designs</h3>
+                        <p class="card-text">Posters, Banners & Flyers.</p>
+
+                        <div class="skill-level-container">
+                            <h4 class="skill-level-title">Skill level</h4>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" style="width:60%"></div>
+                            </div>
+                            <div class="skill-percentage">60%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section projects-section">
+            <div class="section-container">
+                <h2 class="section-title text-primary text-center">Selected Projects</h2>
+                <p class="section-subtitle">A few highlights</p>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <img class="project-image" src="image.png" alt="Project screenshot">
+                        <div class="project-details">
+                            <h3 class="card-title-small">Portfolio Website</h3>
+                            <p class="project-text">A responsive portfolio built with standard CSS and JS.</p>
+                            <div class="project-links">
+                                <a class="btn btn-project-primary" href="#" target="_blank" rel="noopener">Live</a>
+                                <a class="btn btn-project-secondary" href="#" target="_blank" rel="noopener">Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img class="project-image" src="https://images.unsplash.com/photo-1526378728688-29197a6f7b7d?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Project screenshot">
+                        <div class="project-details">
+                            <h3 class="card-title-small">Mobile App UI</h3>
+                            <p class="project-text">Figma-first design for a social networking app — prototype and design tokens.</p>
+                            <div class="project-links">
+                                <a class="btn btn-project-primary" href="#" target="_blank" rel="noopener">Demo</a>
+                                <a class="btn btn-project-secondary" href="#" target="_blank" rel="noopener">Case</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img class="project-image" src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Project screenshot">
+                        <div class="project-details">
+                            <h3 class="card-title-small">Graphics Pack</h3>
+                            <p class="project-text">Brand kit & social visuals for a local business campaign.</p>
+                            <div class="project-links">
+                                <a class="btn btn-project-primary" href="#" target="_blank" rel="noopener">Preview</a>
+                                <a class="btn btn-project-secondary" href="#" target="_blank" rel="noopener">Assets</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section experience-section">
+            <div class="section-container-small">
+                <h2 class="section-title text-primary text-center">Experience</h2>
+                <div class="experience-list">
+                    <div class="card experience-card">
+                        <div class="experience-header">
+                            <div>
+                                <h3 class="card-title-small">Front-End Developer</h3>
+                                <p class="experience-subtitle">Freelance / Personal Projects</p>
+                            </div>
+                            <span class="experience-dates">March, 2025 — Present</span>
+                        </div>
+                        <p class="experience-description">Built responsive mini web applications, implemented UI components and improved performance <!---across several landing pages-->.</p>
+                    </div>
+
+                    <div class="card experience-card">
+                        <div class="experience-header">
+                            <div>
+                                <h3 class="card-title-small">Electrical Installations</h3>
+                                <p class="experience-subtitle">Practical field experience</p>
+                            </div>
+                            <span class="experience-dates">2023 - July, 2024</span>
+                        </div>
+                        <p class="experience-description">Hands-on technical work with Single-phase systems and installations — good troubleshooting discipline and attention to safety.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section education-section">
+            <div class="section-container-small">
+                <h2 class="section-title text-primary text-center">Education</h2>
+                    <div class="card education-card">
+                        <div class="eduaction-content">
+                            <h3>2024-Present</h1>
+                            <p class="education-institution">ISBAT University</p>
+                            <p class="education-degree">Diploma in Software Engineering</p>
+                        </div>
+                    </div>
+
+                    <div class="card education-card">
+                        <div class="eduaction-content">
+                            <h3>2022-2023</h1>
+                            <p class="education-institution">Nakpiripirit Technical</p>
+                            <p class="education-degree">National Certificate in Electrical Engineering</p>                  
+                    </div>
+                </div>
+
+                <div class="card education-card" >
+                        <div class="eduaction-content">
+                            <h3>2020-2022</h1>
+                            <p class="education-institution">St. Kizito Secondary School</p>
+                            <p class="education-degree">Uganda Advanced Certificate of Education (UACE)</p>                  
+                    </div>
+                </div>
+
+                <div class="card education-card" >
+                        <div class="eduaction-content">
+                            <h3>2016-2019</h1>
+                            <p class="education-institution">St. Kizito Secondary School</p>
+                            <p class="education-degree">Uganda Certificate of Education (UCE)</p>                  
+                    </div>
+                </div>
+
+            </div> 
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="section-container-contact">
+                <h2 class="section-title text-primary text-center">Contact</h2>
+                <p class="section-subtitle">Want to work together? Send me a message or email me directly.</p>
+
+                <form id="contactForm" class="contact-form card" action="#" novalidate>
+                    <label class="sr-only" for="name">Full name</label>
+                    <input id="name" name="name" type="text" placeholder="Full name" required class="form-input">
+
+                    <label class="sr-only" for="email">Email</label>
+                    <input id="email" name="email" type="email" placeholder="Email address" required class="form-input">
+
+                    <label class="sr-only" for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Message" required class="form-input"></textarea>
+
+                    <div class="contact-form-actions">
+                        <button type="submit" class="btn btn-primary">Send message</button>
+                        <button type="button" id="mailtoBtn" class="mailto-btn">Email me instead</button>
+                        <span id="formStatus" class="form-status hidden">Message sent — thank you!</span>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-social-links">
+                <a href="https://www.linkedin.com/in/Herbert Skylz" target="_blank" class="footer-link">LinkedIn</a>
+                <a href="https://www.github.com/herbertz skylz" target="_blank" class="footer-link">GitHub</a>
+                <a href="https://www.Instagram.com/in/herbertz_skylz" target="_blank" class="footer-link">Instagram</a>
+            </div>
+
+              <!-- Back to top -->
+            <a href="#" class="back-to-top" title="Back to Top">
+                      <i class="fa fa-arrow-up"></i>
+                </a>
+            <p class="footer-copyright">&copy; 2025 Herbertz Skylz. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

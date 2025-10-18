@@ -1,2 +1,2 @@
-# PORTFOLIO
+# Porfolio
 mini-portfolio website
