@@ -69,4 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
         offset: 100,
         once: true,
     });
+
+    //automatic year update
+    document.getElementById("year").textContent = new Date().getFullYear();
 });
