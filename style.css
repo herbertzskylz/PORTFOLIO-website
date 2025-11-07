@@ -577,6 +577,15 @@
             object-position: top;
         }
 
+        .project-image1 {
+            margin-left: 2rem;
+            padding: 10px 10px;
+            width: 80%;
+            height: 16rem; 
+            border-radius: 15px;
+            object-position: top;
+        }
+
         .project-details {
             padding: 1rem; 
         }
